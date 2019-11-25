@@ -27,7 +27,7 @@ export class Frequencies {
     this.string = ''
     this.sort().forEach((frequency: number, value: BigInt) =>
       this.string += `${value}:${frequency}, `)
-    this.string = this.string.substr(0, this.string.length - 2) // remove last comma
+    this.string = this.string.substr(0, this.string.length - 2) // remove the last comma
   }
 
   public toString(): string {
