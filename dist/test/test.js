@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const fibonacci_1 = require("../src/fibonacci");
+const chai_1 = require("chai");
+describe('Fibonacci', () => {
+    it('should generate', () => {
+        const fib = new fibonacci_1.Fibonacci(1000);
+        FibonacciNumbers.forEach(num => chai_1.expect(fib.has(num)).to.equal(true));
+        chai_1.expect(fib.has(Fibonacci1001st)).to.equal(false);
+    });
+});
+const FibonacciNumbers = [0, 1, 2, 3, 5, 8, 13, 26863810024485359386146727202142923967616609318986952340123175997617981700247881689338369654483356564191827856161443356312976673642210350324634850410377680367334151172899169723197082763985615764450078474174626];
+const Fibonacci1001st = 43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875;
+//# sourceMappingURL=test.js.map

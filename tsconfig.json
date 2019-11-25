@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "removeComments": true,
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*",
+    "tests/fibonacci-test.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
