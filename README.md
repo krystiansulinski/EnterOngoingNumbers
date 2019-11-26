@@ -1,7 +1,5 @@
-## Description
-This program was created as a developer coding test requested by a company I'm being recruited to.
-
-It accepts an ongoing series of user-supplied numbers as inputs and outputs notifications when certain conditions are met. It operates as follows:
+## Instructions - Developer Coding Test
+The application accepts an ongoing series of user-supplied numbers as inputs and outputs notifications when certain conditions are met. It operates as follows:
 
 1. On startup, the program prompts the user for the number of seconds (X) between outputting the frequency of each number to the screen.
 2. Every X seconds the program displays, in frequency, descending order, the list of numbers and their frequency.
