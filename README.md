@@ -1,4 +1,4 @@
-### Instructions - Developer Coding Test
+# Instructions - Developer Coding Test
 The application accepts an ongoing series of user-supplied numbers as inputs and outputs notifications when certain conditions are met. It operates as follows:
 
 1. On startup, the program prompts the user for the number of seconds (X) between outputting the frequency of each number to the screen.
@@ -57,7 +57,7 @@ quit
 
 ```>>``` Thanks for playing, press ENTER to exit.
 
-### Solution
+# Solution
 ## Run the application
 `
 node dist/index.js
@@ -116,6 +116,6 @@ The example of the problem shows two lines where the count of 10 is 3, but I thi
 
 ```>>``` 10:3, 8:2, 33:1
 
-And the following line should be probably split into two:
+And the following line should probably be split into two:
 
 ```>>``` Please enter the next number >> 10:2, 8:1
