@@ -1,4 +1,4 @@
-## Instructions - Developer Coding Test
+### Instructions - Developer Coding Test
 The application accepts an ongoing series of user-supplied numbers as inputs and outputs notifications when certain conditions are met. It operates as follows:
 
 1. On startup, the program prompts the user for the number of seconds (X) between outputting the frequency of each number to the screen.
@@ -57,6 +57,7 @@ quit
 
 ```>>``` Thanks for playing, press ENTER to exit.
 
+### Solution
 ## Run the application
 `
 node dist/index.js
